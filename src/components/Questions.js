@@ -4,13 +4,17 @@ const Questions = () => {
     return (
         <section>
             <hr></hr>
-            <div>
-                <h3>Hola, soy Peter. Te guiaré a cotizar un precio increíble en segundos.
+            <h3>Hola, soy Peter. Te guiaré a cotizar un precio increíble en segundos.
                     ¿Estás listo?</h3>
-                <input type="text" placeholder="nombre"></input>
-                <input type="text" placeholder="apellido"></input>
+            <div className="row">                
+                    <div className="col">
+                    <input type="text" className="form-control" placeholder="nombre"></input>
+                    </div>
+                    <div className="col">
+                    <input type="text" className="form-control" placeholder="apellido"></input>
+                    </div>                    
             </div>
-            <div>
+            <div className="col-md-12">
                 <button>Hagámoslo</button>
             </div>
             
