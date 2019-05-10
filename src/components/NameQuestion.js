@@ -1,25 +1,21 @@
 import React from 'react'
+import './styles/NameQuestion.css'
 
 const NameQuestion = ({updateScreen}) => {
     return (    
         <section className="questions-container">
-            <div className="chat-question-inner">
-                <h3>Hola, soy Peter. Te guiaré a cotizar un precio increíble en segundos.
+            <div className="row-8">
+              <h3>Hola, soy Peter. Te guiaré a cotizar un precio <br/> increíble en segundos.
                     ¿Estás listo?</h3>
-            <div className="question-form"> 
-                <form autocomplete="off" novalidate="">
-                     <input type="text" autocomplete="new-password" autocorrect="off" spellcheck="off" tabindex="1" name="user_first_name" placeholder="Nombres" className="user_first_name is-empty" value=""/>
-                     <input type="text" autocomplete="new-password" autocorrect="off" spellcheck="off" tabindex="2" name="user_last_name" placeholder="Apellidos" className="user_last_name is-empty" value=""/>
-                     <input type="submit" tabindex="-1"/>
-                 </form>
             </div>
+            <div className="row-8">
+              <input type="text"  name="user_first_name" placeholder="Nombres" className="user_first_name is-empty" value=""/>
+              <input type="text"  name="user_last_name" placeholder="Apellidos" className="user_last_name is-empty" value=""/>
             </div>
-            <button type="button" onClick={updateScreen}>Hagámoslo</button>
-        {/* <div className="submit-wrap">
-            <a href="#" tabindex="999" className="btn-standard btn-pink disabled">Hagámoslo</a>
-        </div> */}
-        </section>
-        
+            <div className="row-8">
+              <button type="button" onClick={updateScreen}>Hagámoslo</button>
+            </div>
+        </section>       
     );
 }
 export default NameQuestion;

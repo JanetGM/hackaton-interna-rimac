@@ -12,13 +12,14 @@ import Estimate from './components/Estimate'
 function App() {
   return (
     <div className="App">
-     <Header/>
-     <Comparative/>
+    <Header/>
+    <div className="row">
+    <Comparative/>
      <Estimate />
-     {/* <ProgressBar /> */}
-     {/* <NameQuestion /> */}
-     {/* <AddressQuestion /> */}
-     {/* <OwnerQuestion /> */}
+    </div>
+     
+     
+  
     </div>
   );
 }

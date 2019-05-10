@@ -1,60 +1,28 @@
 import React from 'react'
 
 const ProgressBar = () => {
-    return (
-        <progress-bar>
-    <div classNameName="container p-0 pl-lg-3 pr-lg-3">
-        <div classNameName="progress-bar-container">
-            <div classNameName="progress-bar-item">
-                <div classNameName="row">
-                    <div classNameName="col-12 col-lg-4 text-center">
-                        <img classNameName="bar-item-image" src="../img/Document.png" alt="" />
-                    </div>
-                    <div classNameName="col-12 col-lg pt-2">
-                        <span classNameName="step-number d-none d-lg-block">Paso 1</span>
-                        <span classNameName="step-name pt-1 d-none d-lg-block">Datos personales</span>
-                    </div>
-                </div>
-            </div>
-            <div classNameName="progress-bar-item">
-                <div classNameName="row">
-                    <div classNameName="col-12 col-lg-4 text-center">
-                        <img classNameName="bar-item-image" src="../img/User.png" />
-                    </div>
-                    <div classNameName="col-12 col-lg pt-2">
-                        <span classNameName="step-number d-none d-lg-block">Paso 2</span>
-                        <span classNameName="step-name pt-1 d-none d-lg-block">Tus detalles</span>
-                    </div>
-                </div>
-            </div>
-            <div classNameName="progress-bar-item">
-                <div classNameName="row">
-                    <div classNameName="col-12 col-lg-4 text-center">
-                        <img classNameName="bar-item-image" src="../img/Vector.png" />
-                    </div>
-                    <div classNameName="col-12 col-lg pt-2">
-                        <span classNameName="step-number d-none d-lg-block">Paso 3</span>
-                        <span classNameName="step-name pt-1 d-none d-lg-block">Ubicación</span>
-                    </div>
-                </div>
-            </div>
-            <div classNameName="progress-bar-item">
-                <div classNameName="row">
-                    <div classNameName="col-12 col-lg-4 text-center">
-                        <img classNameName="bar-item-image" src="../img/Money.png" />
-                    </div>
-                    <div classNameName="col-12 col-lg pt-2">
-                        <span classNameName="step-number d-none d-lg-block">Paso 4</span>
-                        <span classNameName="step-name pt-1 d-none d-lg-block">Pagar</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</progress-bar>
-        
+    return (              
+       <div class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#" >
+    <img src="C:\Users\Laboratoria\Documents\reto_rimac\hackaton-interna-rimac\public\img\document.png" width="30" height="30" class="d-inline-block align-top" alt=""/>
+    Paso 1
+    
+        </a>
+        <a class="navbar-brand" href="#" >
+    <img src="C:\Users\Laboratoria\Documents\reto_rimac\hackaton-interna-rimac\public\img\User.png" width="30" height="30" class="d-inline-block align-top" alt=""/>
+    Paso 2
+        </a>
+        <a class="navbar-brand" href="#" >
+    <img src="C:\Users\Laboratoria\Documents\reto_rimac\hackaton-interna-rimac\public\img\Vector.png" width="30" height="30" class="d-inline-block align-top" alt=""/>
+    Paso 3
+        </a>
+        <a class="navbar-brand" href="#" >
+    <img src="C:\Users\Laboratoria\Documents\reto_rimac\hackaton-interna-rimac\public\img\Money.png" width="30" height="30" class="d-inline-block align-top" alt=""/>
+    Paso 4
+        </a>
+        </div> 
+    
     );
 }
 
 export default ProgressBar;
- 
