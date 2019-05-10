@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Comparative from '../src/components/Comparative';
-import Questions from '../src/components/Questions'
+import NameQuestion from '../src/components/NameQuestion'
 import SecondQuestion from '../src/components/SecondQuestion'
 import ProgressBar from './components/ProgressBar'
 import Header from '../src/components/header';
@@ -12,7 +12,7 @@ function App() {
      <Header/>
      <Comparative/>
      <ProgressBar />
-     <Questions />
+     <NameQuestion />
      <SecondQuestion />
     </div>
   );
