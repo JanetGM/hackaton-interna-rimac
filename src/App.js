@@ -1,21 +1,24 @@
 import React from 'react';
 import './App.css';
-import Comparative from '../src/components/Comparative';
-import NameQuestion from './components/NameQuestion'
-import AddressQuestion from './components/AddressQuestion'
-import ProgressBar from './components/ProgressBar'
 import Header from '../src/components/header'
-import OwnerQuestion from './components/OwnerQuestion'
+import Comparative from '../src/components/Comparative';
+import Estimate from './components/Estimate'
+
+// import NameQuestion from './components/NameQuestion'
+// import AddressQuestion from './components/AddressQuestion'
+// import ProgressBar from './components/ProgressBar'
+// import OwnerQuestion from './components/OwnerQuestion'
 
 function App() {
   return (
     <div className="App">
      <Header/>
      <Comparative/>
-     <ProgressBar />
-     <NameQuestion />
-     <AddressQuestion />
-     <OwnerQuestion />
+     <Estimate />
+     {/* <ProgressBar /> */}
+     {/* <NameQuestion /> */}
+     {/* <AddressQuestion /> */}
+     {/* <OwnerQuestion /> */}
     </div>
   );
 }

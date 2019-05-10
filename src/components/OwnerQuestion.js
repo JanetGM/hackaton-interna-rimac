@@ -1,6 +1,6 @@
 import React from 'react'
 
-const OwnerQuestion = () => {
+const OwnerQuestion = ({updateScreen}) => {
     return(
       <section className="questions-container">
       <div className="chat-question-inner dual-iconic">
@@ -44,9 +44,10 @@ const OwnerQuestion = () => {
           </div>
           <span></span>
       </div>
-      <div className="submit-wrap">
+      <button type="button" onClick={updateScreen}>Siguiente</button>
+      {/* <div className="submit-wrap">
           <a href="#" tabindex="999" className="btn-standard btn-pink disabled">Next</a>
-      </div>
+      </div> */}
   </section>
   );
 }

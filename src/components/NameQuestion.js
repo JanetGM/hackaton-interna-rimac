@@ -1,6 +1,6 @@
 import React from 'react'
 
-const NameQuestion = () => {
+const NameQuestion = ({updateScreen}) => {
     return (    
         <section className="questions-container">
             <div className="chat-question-inner">
@@ -14,9 +14,10 @@ const NameQuestion = () => {
                  </form>
             </div>
             </div>
-        <div className="submit-wrap">
+            <button type="button" onClick={updateScreen}>Hagámoslo</button>
+        {/* <div className="submit-wrap">
             <a href="#" tabindex="999" className="btn-standard btn-pink disabled">Hagámoslo</a>
-        </div>
+        </div> */}
         </section>
         
     );

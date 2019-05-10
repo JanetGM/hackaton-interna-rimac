@@ -1,6 +1,6 @@
 import React from 'react'
 
-const AddressQuestion = () => {
+const AddressQuestion = ({updateScreen}) => {
     return (
         <span>
         <div className="questions-container">
@@ -30,9 +30,10 @@ const AddressQuestion = () => {
         <span className="switch-explanation">
         </span>
 </div>
-<div className="submit-wrap">
+<button type="button" onClick={updateScreen}>Siguiente</button>
+{/* <div className="submit-wrap">
     <a href="#" tabindex="999" className="btn-standard btn-pink disabled">Next</a>
-</div>
+</div> */}
 </div>
 <a href="#" className="btn-back" tabindex="-1"></a>
 </span>
