@@ -1,7 +1,7 @@
 import React from 'react'
 import './styles/NameQuestion.css'
 
-const NameQuestion = ({updateScreen}) => {
+const NameQuestion = ({userName,updateName, updateScreen}) => {
     return (    
         <section className="questions-container">
             <div className="row-8">
@@ -9,8 +9,8 @@ const NameQuestion = ({updateScreen}) => {
                     ¿Estás listo?</h3>
             </div>
             <div className="row-8">
-              <input type="text"  name="user_first_name" placeholder="Nombres" className="user_first_name is-empty" value=""/>
-              <input type="text"  name="user_last_name" placeholder="Apellidos" className="user_last_name is-empty" value=""/>
+              <input type="text"  name="userName" defaultValue={userName} onChange={updateName} placeholder="Nombres" className="user_first_name is-empty" />
+              <input type="text"  name="user_last_name" placeholder="Apellidos" className="user_last_name is-empty" />
             </div>
             <div className="row-8">
               <button type="button" onClick={updateScreen}>Hagámoslo</button>

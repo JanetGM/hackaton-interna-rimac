@@ -1,10 +1,10 @@
 import React from 'react'
 
-const AddressQuestion = ({updateScreen}) => {
+const AddressQuestion = ({updateScreen, userName}) => {
     return (
         <section className="questions-container">
             <div className="row-8">
-              <h3>Un gusto conocerte ----- <br/> ¿Cuál es la dirección de tu hogar?</h3>
+              <h3>Un gusto conocerte {userName} <br/> ¿Cuál es la dirección de tu hogar?</h3>
             </div>
             <div className="row-8">
               <input type="text"  name="user_address" placeholder="Direcció detallada" className="user_first_name is-empty" value=""/>
