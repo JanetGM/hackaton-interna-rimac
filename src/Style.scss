@@ -1,2 +1,18 @@
-.rimac-banner-hogar{
-  background: #7c2e78}
+$break-large: 1250px;
+
+.rimac-header{
+  @media screen and (max-width: 1250px){
+    padding: 0px;
+  }
+  .navbar{
+    a{
+      @media screen and (max-width: 1150px){
+      width: 115px;
+      }
+    }
+  }
+}
+.btn-my-account {
+    @media screen and (max-width: 1150px){
+      width: 150px}
+}

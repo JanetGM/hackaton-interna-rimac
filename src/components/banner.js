@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <div>
       <section className="rimac-banner-hogar">
-        Soy el bannercito
+       <img src="../img/home-rimac-logo.png" alt="" />
       </section>
 
     </div>

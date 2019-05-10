@@ -5,6 +5,7 @@ body{
 }
 a{
   text-decoration: none;
+  color: #fff
 }
 
 .App {
@@ -81,7 +82,7 @@ a{
 }
 .rimac-header ul{
   padding: 0%;
-  margin:  0%  0% 0% 40px;
+  margin:  0%  0% 0% 20px;
   height: 100%;
 }
 .rimac-header .navbar a{
@@ -94,30 +95,31 @@ a{
   font-family: 'Roboto', sans-serif;
   width: 150px;
 }
-.btn-phone-img{
-  width: 15px;
-  height: 15px;
-  padding: 10px;
+
+.rimac-header i{
+  padding-right: 10px
 }
+
 .btn-phone p{
   font-weight: bold;
   font-family: 'Lato', sans-serif;
   margin: 0%;
 }
-.btn-search img{
-  width: 17px;
-  height: 17px;
-  padding: 10px;
+.btn-search{
+  width: 20px
 }
 .btn-my-account a{
   color: #fff;
   height: 70%;
-  width: 100%;
+  width: 85%;
   border: 1px solid;
   border-radius: 5px;
    font-family: Lato, serif;
   font-size: 12px;
   font-weight: bold;
+}
+.btn-my-account a:hover{
+  color: #fff
 }
 .btn-my-account i{
   padding-right: 10px
