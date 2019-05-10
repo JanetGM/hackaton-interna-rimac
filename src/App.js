@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
 import Comparative from '../src/components/Comparative';
-import NameQuestion from '../src/components/NameQuestion'
-import SecondQuestion from '../src/components/SecondQuestion'
+import NameQuestion from './components/NameQuestion'
+import AddressQuestion from './components/AddressQuestion'
 import ProgressBar from './components/ProgressBar'
-import Header from '../src/components/header';
+import Header from '../src/components/header'
+import OwnerQuestion from './components/OwnerQuestion'
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
      <Comparative/>
      <ProgressBar />
      <NameQuestion />
-     <SecondQuestion />
+     <AddressQuestion />
+     <OwnerQuestion />
     </div>
   );
 }
