@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "18208675e7beaf1ae4f8751a03cec619",
+    "revision": "8c6a0d55f64235d84f025d13f30a1a7c",
     "url": "/hackaton-interna-rimac/index.html"
   },
   {
-    "revision": "e173d0945b832ceb0f84",
+    "revision": "88616632ed1fcd025bc2",
     "url": "/hackaton-interna-rimac/static/css/main.3420d900.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hackaton-interna-rimac/static/js/2.65aa1cca.chunk.js"
   },
   {
-    "revision": "e173d0945b832ceb0f84",
-    "url": "/hackaton-interna-rimac/static/js/main.affe336b.chunk.js"
+    "revision": "88616632ed1fcd025bc2",
+    "url": "/hackaton-interna-rimac/static/js/main.7dde39f5.chunk.js"
   },
   {
     "revision": "60f03d47686521fb441d",

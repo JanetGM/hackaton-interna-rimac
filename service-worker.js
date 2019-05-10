@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/hackaton-interna-rimac/precache-manifest.6368e5bc74ae1ba0e8c3b2f5676676bc.js"
+  "/hackaton-interna-rimac/precache-manifest.d445d197ecd40e629d732468bf934afd.js"
 );
 
 self.addEventListener('message', (event) => {
