@@ -4,7 +4,7 @@ const OwnerQuestion = ({updateScreen}) => {
     return(
       <section className="questions-container">
       <div className="chat-question-inner dual-iconic">
-          <h3 className="">Do you rent or own it?</h3>
+          <h3 className="">Eres dueño o rentas?</h3>
           <div className="question-form">
               <form autocomplete="off">
                   <label className="input-radio with-icn">
@@ -32,7 +32,7 @@ const OwnerQuestion = ({updateScreen}) => {
                               <img src="/assets/web_chat/owner-d009ed56dc35f04e3ceaed8785eb0d89bf6b536b93b9547f0c2e9508ad5847b4.png" alt="" />
                           </div>
                           <div className="iconic-option-inner">
-                              <h5>Own</h5>
+                              {/* <h5>Own</h5> */}
                               <i></i>
                           </div>
                       </div>

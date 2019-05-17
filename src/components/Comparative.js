@@ -41,9 +41,8 @@ import React from 'react';
                 </tr>
                 <tr className="text-center">
                     <td></td>
-                    <td><a href="https://www.rimac.com.pe/productoweb/SEGURO_DOMICILIARIO/#" className="btn  color-button">Solicitar</a></td>
-                    <td><a href="https://www.rimac.com.pe/productoweb/SEGURO_DOMICILIARIO/#" className="btn  color-button">Solicitar</a></td>
-                </tr>
+                    <td><a href="https://www.rimac.com.pe/productoweb/SEGURO_DOMICILIARIO/#" className="btn  color-button">Cotizar</a></td>
+                                 </tr>
              </tbody>
          </table>
      </div>
